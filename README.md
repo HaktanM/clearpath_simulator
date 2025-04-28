@@ -1,4 +1,16 @@
 # clearpath_simulator
+This is a modified version of the [clearpath simulator](https://github.com/clearpathrobotics/clearpath_simulator). Specifically, Humble branch. ROS2 Humble version of clearpath only installs warehouse as default. I gently integrate other worlds, which are readly availabel for ROS2 Jazzy version to ROS2 Humbler version. Enjoy it
+
+Available worlds are:
+
+| World                 | Description                                                                                                            | Screenshots                  | Geographic Location      |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------|------------------------------|--------------------------|
+| `construction`        | The same floorplan as the `office` world, but under construction. Features non-solid walls and debris piles.           | [link](docs/construction.md) | Waterloo ON, Canada      |
+| `office`              | The same floorplan as the `construction` world. Features narrow hallways, doorways, meeting rooms, and loading docks.  | [link](docs/office.md)       | Waterloo ON, Canada      |
+| `orchard`             | An outdoor, agricultural environment featuring rows of trees. The terrain has small slopes, but is mostly flat.        | [link](docs/orchard.md)      | Nikea, Greece            |
+| `pipeline`            | A rugged, outdoor environment featuring steeper hills, a river and bridge, a small cave, solar panels, and a pipeline. | [link](docs/pipeline.md)     | Northern Alberta, Canada |
+| `solar_farm`          | An outdoor, agricultural environmentf featuring gentle hills, a barn, rows of solar panels, and fences.                | [link](docs/solar_farm.md)   | Stonewall MB, Canada     |
+| `warehouse` (default) | A flat, indoor warehouse environment. Features shelves and people.                                                     | [link](docs/warehouse.md)    | Rio de Janeiro, Brazil   |
 
 ## Setup
 
@@ -38,3 +50,4 @@ Copy your `robot.yaml` into `~/clearpath`
 ```
 ros2 launch clearpath_gz simulation.launch.py
 ```
+
