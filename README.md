@@ -1,5 +1,5 @@
 # clearpath_simulator
-This is a customized version of the [clearpath simulator](https://github.com/clearpathrobotics/clearpath_simulator)tailored for ROS2 Humble. The default installation for ROS2 Humble only includes the warehouse world as built in, but I have added several other worlds that were originally available for the ROS2 Jazzy version.
+This is a customized version of the [clearpath simulator](https://github.com/clearpathrobotics/clearpath_simulator) tailored for ROS2 Humble. The default installation for ROS2 Humble only includes the warehouse world as built in, but I have added several other worlds that were originally available for the ROS2 Jazzy version.
 
 Available worlds are:
 
